@@ -1,0 +1,36 @@
+body{
+    background-color: cyan;
+}
+
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div{
+    width: 25vw;
+    height: 50vh;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+
+.plano{
+    background-color: aqua;
+}
+
+.gradiente{
+    background: linear-gradient(to right, red,blue);
+}
+
+.imagen {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/960/590/small/abstract-watercolor-texture-wallpaper-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
